@@ -250,7 +250,8 @@ Mình sẽ tập trung tìm hiểu quy trình và khó khăn của người dùn
 
 ### 6.7. Tóm tắt toàn bộ quá trình làm việc của nhóm
 
-Nhóm chọn bài toán hỗ trợ sinh viên đối chiếu bài làm với rubric trước khi nộp. Qua phân tích, nhóm xác định bước tìm minh chứng và so sánh với rubric là bottleneck, khiến quy trình ước tính mất khoảng 55–60 phút. Nhóm đề xuất dùng Rule để kiểm tra cấu trúc và AI để phân tích nội dung, đưa ra minh chứng cho từng tiêu chí. Sinh viên vẫn là người xem xét và quyết định chỉnh sửa; AI không chấm điểm hay tự nộp bài. Nhóm chọn hướng Workflow kết hợp Human-in-the-loop, nhưng quyết định **Not Yet** vì chưa có đủ dữ liệu và kết quả thử nghiệm để chứng minh hiệu quả.
+Nhóm chọn bài toán hỗ trợ sinh viên đối chiếu bài làm với rubric để tránh mất điểm do thiếu tiêu chí. Qua phân tích, nhóm xác định bước đối chiếu là bottleneck và đặt mục tiêu giảm thời gian kiểm tra từ 60 xuống 20 phút, với độ khớp đánh giá từ 90% trở lên. Nhóm đề xuất Workflow kết hợp Rule và HITL: AI hỗ trợ kiểm tra nhưng không tự sửa bài hay thay giảng viên chấm điểm. Quyết định cuối cùng là Not Yet, cần thử nghiệm giới hạn trước khi triển khai.
+
 ---
 
 ## 7. Tài liệu tham khảo
