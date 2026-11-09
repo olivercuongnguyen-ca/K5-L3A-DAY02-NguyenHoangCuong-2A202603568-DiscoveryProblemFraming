@@ -89,3 +89,32 @@ Chính: CP3, tổng hợp thông tin - Phụ: CP4, CP6
 
 - Học được cách dừng lại đúng lúc khi nhóm rơi vào bẫy "solution-first" (mất 15 phút bàn chuyện rubric có công khai không, đọc file/ảnh thế nào) để quay về hỏi "ai đang thật sự gặp vấn đề" và kiểm chứng pain point trước.
 - Nhận ra không phải vấn đề nào tốn thời gian cũng cần AI hoặc Agent; việc phân tách rõ bước nào dùng Rule (kiểm tra cấu trúc), bước nào dùng AI (đối chiếu ngữ nghĩa có trích dẫn minh chứng) và bước nào con người giữ quyết định (HITL), kèm đối chứng với phương án No AI (checklist, review chéo), giúp bài toán thực tế và an toàn hơn.
+
+### 2A202603538_NguyenThiHuongGiang
+
+**Phần việc phụ trách:**
+Chính: CP4
+-
+**Pitch:** #7 (Giải đáp phụ huynh), #8 (Đưa đón học sinh), #9 (Thời khóa biểu).  
+**Phản biện:** #2, #5, #12.
+**Phụ trách chính:** Checkpoint 4
+
+| Hoạt động | Nội dung thực hiện | Kết quả / Ảnh hưởng tới bài nhóm |
+|---|---|---|
+| Pitch Problem Card | Trình bày 3 Problem Card gồm: #7 (Giải đáp thắc mắc phụ huynh), #8 (Đưa đón học sinh) và #9 (Xây dựng thời khóa biểu). | Đưa vấn đề #7 vào Cluster A; #8 và #9 vào Cluster B. Tuy nhiên, cả 3 vấn đề đều không được lựa chọn vào shortlist. |
+| Phản biện bài của nhóm khác | - **Dương (#2):** Đặt câu hỏi về việc nguyên nhân xử lý chậm đến từ token hay bước kiểm tra giao diện.- **Quang (#5):** Góp ý về nguy cơ AI tóm tắt làm mất các chi tiết quan trọng trong thông tin đầu vào.- **Cương (#12):** Đặt vấn đề về việc hệ thống chậm do code hay do AI, đồng thời yêu cầu làm rõ bằng chứng chứng minh hiệu quả của AI. | Góp phần làm rõ nguyên nhân của vấn đề, đánh giá mức độ phù hợp khi ứng dụng AI và yêu cầu về bằng chứng trước khi đề xuất giải pháp. |
+| Nhận phản biện | - **Pitch #7 – Cương:** Vấn đề giải đáp thắc mắc phụ huynh có thể đã được giải quyết bằng FAQ/RAG.- **Pitch #8 – Quang:** Dữ liệu phục vụ quy trình đưa đón học sinh có thể thiếu hoặc mâu thuẫn.<br>- **Pitch #9 – Dương:** Cần xem xét chi phí triển khai và vận hành giải pháp. | Tiếp nhận các ý kiến phản biện để đánh giá lại tính cần thiết, tính khả thi và giá trị ứng dụng AI của từng vấn đề. |
+| Tham gia các hoạt động chung | Tham gia các hoạt động gom nhóm vấn đề (Cluster), xây dựng Opportunity Solution Tree (OST), lựa chọn Candidate, kiểm chứng vấn đề, xây dựng quy trình hiện tại và tương lai, hoàn thiện Problem Statement và xác định mức độ can thiệp của AI. | Đóng góp vào quá trình phân tích, đánh giá và lựa chọn hướng giải quyết của nhóm, đồng thời giúp làm rõ vai trò của AI trong quy trình đề xuất. |
+
+### Bằng chứng công việc
+
+- `group_report`: Mục 2.1 – Nội dung Pitch Problem Card #7, #8 và #9, checkpoint 4
+- File báo cáo cá nhân: Mục 3 – Ba Problem Card đã xây dựng, trong đó Card #1 được lựa chọn làm hướng trình bày ưu tiên.
+- File assets: cp4–interview–snapshot–1.md, cp4–survey–result.png 
+
+**Điều mình học được từ phần nhóm:**
+– Cần phân biệt giữa một vấn đề gây bất tiện và một vấn đề đủ nghiêm trọng để cần giải pháp mới.
+– Việc phân tích quy trình hiện tại giúp mình hiểu rõ công đoạn nào thực sự tốn thời gian, thay vì chỉ nhìn vào kết quả cuối cùng.
+– AI không nhất thiết phải xử lý toàn bộ công việc. Những bước có quy tắc rõ ràng nên ưu tiên Rule, còn các quyết định cần đánh giá ngữ cảnh vẫn cần con người tham gia.
+– Một giải pháp có vẻ khả thi về mặt kỹ thuật chưa chắc đã phù hợp để triển khai thực tế nếu chưa có dữ liệu đánh giá và chưa xác định được rủi ro.
+– Mình học được rằng quyết định chưa triển khai cũng là một kết quả hợp lý nếu bằng chứng hiện tại chưa đủ thuyết phục.
