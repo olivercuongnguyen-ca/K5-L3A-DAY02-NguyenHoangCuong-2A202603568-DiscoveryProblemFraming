@@ -41,7 +41,6 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 Chính: CP3, tổng hợp thông tin - Phụ: CP4, CP6
--
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
@@ -53,13 +52,11 @@ Chính: CP3, tổng hợp thông tin - Phụ: CP4, CP6
 | Chọn candidate problem | Cùng nhóm chấm điểm; không bất đồng | Củng cố lại lựa chọn vấn đề #4 của nhóm |
 | Kiểm chứng / research | Hỗ trợ thiết kế câu hỏi interview | Giúp nhóm interview theo The Mom Test |
 | Quyết định | Đưa thêm góc nhìn về metric | Củng cố kết luận Not Yet |
--
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 - group_report.md: 2. Hội tụ nhóm (CP3)
 - report/assets/: cp2-workflow-card-1.png
 - Commit: 634b835, dc6a69f, 61b56b9, 99963af, 6efcbca, 340171c
--
 
 **Điều mình học được từ phần nhóm:**
 - Một problem tốt không chỉ đúng với bản thân mà phải được kiểm chứng từ nhiều người, pain point khác nhau theo từng nhóm đối tượng.
@@ -67,7 +64,6 @@ Chính: CP3, tổng hợp thông tin - Phụ: CP4, CP6
 - Phản biện giúp đánh giá lại bottleneck (hệ thống chậm có thể do khâu code, không chỉ do tổng hợp), không nên khẳng định bottleneck khi chưa kiểm chứng.
 - Phỏng vấn mở theo Mom Test, dù chỉ 2 người, vẫn cho insight về workaround (nhờ bạn check chéo, dùng ChatGPT) và buộc nhóm chứng minh giá trị hơn các cách có sẵn.
 - Metric cần phản ánh đúng hiệu quả, lần sau mình sẽ phản biện mạnh hơn ở điểm này.
--
 
 ### VuTrongQuang-2A202603535
 
