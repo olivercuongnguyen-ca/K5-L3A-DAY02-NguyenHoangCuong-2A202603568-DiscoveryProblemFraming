@@ -80,12 +80,12 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 | **#** | **Giả định** | **Loại** | **Quan trọng** | **Đã có bằng chứng** | **Kiểm trước?** |
 |---|---|---|---:|---:|---|
 | 1 | Học sinh thực sự muốn kiểm tra bài làm trước khi nộp để phát hiện lỗi và cải thiện chất lượng bài. | Value | 5 | 4 | ✅ |
-| 2 | Giáo viên có thể cung cấp rubric đủ rõ ràng để AI đánh giá từng tiêu chí trong bài làm. | Feasibility | 5 | 2 | ✅ |
+| 2 | Giáo viên có thể cung cấp rubric đủ rõ ràng để AI đánh giá từng tiêu chí trong bài làm. | Feasibility | 5 | 2 | - |
 | 3 | AI có thể đánh giá bài làm nhất quán với giáo viên khi sử dụng cùng một rubric. | Feasibility | 5 | 3 | — |
-| 4 | Bài làm và rubric có thể được tải lên để hệ thống xử lý tự động. | Feasibility | 4 | 3 | ✅ |
+| 4 | Bài làm và rubric có thể được tải lên để hệ thống xử lý tự động. | Feasibility | 4 | 3 | - |
 | 5 | Nhà trường và giáo viên cho phép đưa dữ liệu bài làm vào công cụ AI | Viability | 4 | 1 | Hỏi sau lab |
 
-Giả định nhóm kiểm chứng trong buổi này: 1, 2, 4
+Giả định nhóm kiểm chứng trong buổi này: 1
 
 
 
