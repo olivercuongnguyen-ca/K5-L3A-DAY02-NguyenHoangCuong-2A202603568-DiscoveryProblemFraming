@@ -205,6 +205,8 @@ PHƯƠNG ÁN QUAY VỀ:
 - Nếu AI gặp lỗi (timeout, ảo giác, nhận xét chung chung không có dẫn chứng): Sinh viên bỏ qua output của AI và sử dụng bảng checklist tiêu chuẩn do bước Rule sinh ra ở Bước 2 để tự rà soát thủ công theo cách cũ.
 ```
 
+![Quy trình tương lai](../assets/cp5-workflow-future.png)
+
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
