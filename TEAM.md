@@ -68,3 +68,28 @@ Commit: 634b835, dc6a69f, 61b56b9, 99963af, 6efcbca, 340171c
 - Phỏng vấn mở theo Mom Test, dù chỉ 2 người, vẫn cho insight về workaround (nhờ bạn check chéo, dùng ChatGPT) và buộc nhóm chứng minh giá trị hơn các cách có sẵn.
 - Metric cần phản ánh đúng hiệu quả, lần sau mình sẽ phản biện mạnh hơn ở điểm này.
 -
+
+### VuTrongQuang-2A202603535
+
+**Phần việc phụ trách:**
+
+- Chính: CP5 (Quy trình trước/sau và Problem Statement v0).
+- Hỗ trợ: CP3 (Hội tụ nhóm), CP4 (Research), CP6 (Mức can thiệp AI + Problem Statement v1).
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Pitch card #4 "Đối chiếu bài làm với Rubric", được nhóm chọn làm candidate problem (34/35 điểm shortlist).
+- Khi nhóm sa vào bàn giải pháp khoảng 15 phút (rubric có công khai không, đọc file/ảnh thế nào), đề nghị dừng lại xác nhận pain point với sinh viên khác; nhóm chuyển sang đặt giả định (1, 2, 4) và kiểm chứng ở CP4.
+- Viết quy trình hiện tại (5 bước, 55–60 phút, bottleneck dò minh chứng 25'), quy trình tương lai chia Rule / AI / Con người (18–20 phút, 3/5 bước thủ công), boundary, phương án quay về và bảng before/after (hỗ trợ bởi Giang).
+- Vẽ ảnh quy trình tương lai `cp5-workflow-future.png`; viết Problem Statement v0 (hỗ trợ bởi Dương) làm nền cho bản v1 ở CP6.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md` mục 2.1 (pitch #4–#6), mục 4 (quy trình), mục 5 (Problem Statement v0).
+- `report/assets/cp5-workflow-future.png`.
+- Commit `99963af` (hoàn thành CP5), `3e032a0` (ảnh quy trình tương lai).
+
+**Điều mình học được từ phần nhóm:**
+
+- Học được cách dừng lại đúng lúc khi nhóm rơi vào bẫy "solution-first" (mất 15 phút bàn chuyện rubric có công khai không, đọc file/ảnh thế nào) để quay về hỏi "ai đang thật sự gặp vấn đề" và kiểm chứng pain point trước.
+- Nhận ra không phải vấn đề nào tốn thời gian cũng cần AI hoặc Agent; việc phân tách rõ bước nào dùng Rule (kiểm tra cấu trúc), bước nào dùng AI (đối chiếu ngữ nghĩa có trích dẫn minh chứng) và bước nào con người giữ quyết định (HITL), kèm đối chứng với phương án No AI (checklist, review chéo), giúp bài toán thực tế và an toàn hơn.
