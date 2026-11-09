@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — MSSV_HoTen
+# Báo cáo cá nhân — 2A202603538_NguyenThiHuongGiang
 
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
@@ -10,7 +10,7 @@
 - MSSV:2A202603538
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm:
-- Link repo nhóm:
+- Link repo nhóm: https://github.com/olivercuongnguyen-ca/K5-L3A-DAY02-NguyenHoangCuong-2A202603568-DiscoveryProblemFraming
 
 ---
 
@@ -30,7 +30,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | 5 | Pain từ người khác | Khi phụ huynh muốn tìm hiểu lịch học, học phí, quy định hoặc chương trình đào tạo, họ muốn nhận được câu trả lời nhanh và chính xác, để không phải liên hệ trực tiếp với nhà trường cho từng câu hỏi. | Phụ huynh, nhân viên tư vấn tuyển sinh | 20–30 câu hỏi/ngày, khoảng 5–10 phút/câu |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
-
+Không có dùng AI gợi ý them. chỉ dùng AI để kiểm tra lại những ý tưởng đã có
 -
 
 ---
@@ -183,24 +183,29 @@ BẮT ĐẦU HỌC KỲ MỚI
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+| Giải đáp thắc mắc phụ huynh bằng FAQ hoặc chatbot RAG đã có nhiều giải pháp tương tự. Cần làm rõ điểm khác biệt của đề xuất. | Đồng ý | Tập trung vào khả năng truy xuất thông tin từ tài liệu chính thức của nhà trường, cung cấp câu trả lời có căn cứ thay vì chỉ xây dựng chatbot FAQ thông thường. |
+| Chất lượng câu trả lời phụ thuộc vào Knowledge Base. Nếu tài liệu thiếu, lỗi thời hoặc có thông tin mâu thuẫn, chatbot có thể trả lời sai. | Đồng ý | Bổ sung yêu cầu quản lý và cập nhật tài liệu. Chatbot cần thông báo khi không tìm thấy thông tin đáng tin cậy, không tự suy đoán câu trả lời. |
+| Không phải câu hỏi nào của phụ huynh cũng có thể tự động trả lời. Một số trường hợp cần nhân viên nhà trường tham gia xử lý. | Đồng ý | Bổ sung cơ chế Human-in-the-loop: chatbot trả lời các câu hỏi thông thường và chuyển câu hỏi phức tạp, cần xác minh hoặc xử lý riêng cho nhân viên phụ trách. |
 
 ---
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
+**Pitch:** #7 (Giải đáp phụ huynh), #8 (Đưa đón học sinh), #9 (Thời khóa biểu).  
+**Phản biện:** #2, #5, #12.
+**Phụ trách chính:** Checkpoint 4
+
+| Hoạt động | Nội dung thực hiện | Kết quả / Ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày 3 Problem Card gồm: #7 (Giải đáp thắc mắc phụ huynh), #8 (Đưa đón học sinh) và #9 (Xây dựng thời khóa biểu). | Đưa vấn đề #7 vào Cluster A; #8 và #9 vào Cluster B. Tuy nhiên, cả 3 vấn đề đều không được lựa chọn vào shortlist. |
+| Phản biện bài của nhóm khác | - **Dương (#2):** Đặt câu hỏi về việc nguyên nhân xử lý chậm đến từ token hay bước kiểm tra giao diện.- **Quang (#5):** Góp ý về nguy cơ AI tóm tắt làm mất các chi tiết quan trọng trong thông tin đầu vào.- **Cương (#12):** Đặt vấn đề về việc hệ thống chậm do code hay do AI, đồng thời yêu cầu làm rõ bằng chứng chứng minh hiệu quả của AI. | Góp phần làm rõ nguyên nhân của vấn đề, đánh giá mức độ phù hợp khi ứng dụng AI và yêu cầu về bằng chứng trước khi đề xuất giải pháp. |
+| Nhận phản biện | - **Pitch #7 – Cương:** Vấn đề giải đáp thắc mắc phụ huynh có thể đã được giải quyết bằng FAQ/RAG.- **Pitch #8 – Quang:** Dữ liệu phục vụ quy trình đưa đón học sinh có thể thiếu hoặc mâu thuẫn.<br>- **Pitch #9 – Dương:** Cần xem xét chi phí triển khai và vận hành giải pháp. | Tiếp nhận các ý kiến phản biện để đánh giá lại tính cần thiết, tính khả thi và giá trị ứng dụng AI của từng vấn đề. |
+| Tham gia các hoạt động chung | Tham gia các hoạt động gom nhóm vấn đề (Cluster), xây dựng Opportunity Solution Tree (OST), lựa chọn Candidate, kiểm chứng vấn đề, xây dựng quy trình hiện tại và tương lai, hoàn thiện Problem Statement và xác định mức độ can thiệp của AI. | Đóng góp vào quá trình phân tích, đánh giá và lựa chọn hướng giải quyết của nhóm, đồng thời giúp làm rõ vai trò của AI trong quy trình đề xuất. |
+
+### Bằng chứng công việc
+
+- `group_report`: Mục 2.1 – Nội dung Pitch Problem Card #7, #8 và #9, checkpoint 4
+- File báo cáo cá nhân: Mục 3 – Ba Problem Card đã xây dựng, trong đó Card #1 được lựa chọn làm hướng trình bày ưu tiên.
 
 ---
 
@@ -208,35 +213,47 @@ BẮT ĐẦU HỌC KỲ MỚI
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Sử dụng AI để kiểm tra lại các vấn đề đã quan sát và ghi nhận, không dùng AI để tạo ra ý tưởng hoặc đề xuất vấn đề mới. | Giúp rà soát cách diễn đạt, kiểm tra xem vấn đề đã được mô tả rõ ràng và có hợp lý hay chưa. | AI có thể đưa ra nhận xét chung chung, chưa nắm được đầy đủ bối cảnh thực tế của nhà trường. | Giữ các vấn đề xuất phát từ quá trình quan sát và thảo luận; chỉ tiếp thu góp ý phù hợp để chỉnh sửa cách diễn đạt. |
+| CP2 Problem Card | Nhờ AI rà soát nội dung Problem Card, kiểm tra các thành phần như đối tượng, bối cảnh, quy trình hiện tại, bottleneck và tác động của vấn đề. | Giúp phát hiện những thông tin còn thiếu, điểm chưa rõ trong quy trình và các giả định chưa được làm rõ. | Một số nhận xét còn mang tính suy đoán, chưa có dữ liệu thực tế để chứng minh. | Điều chỉnh nội dung Problem Card, phân biệt thông tin đã có với giả định; không xem các con số ước tính là dữ liệu đã được xác thực. |
+| CP4 Research | Sử dụng AI để hỗ trợ tìm hiểu, tổng hợp và so sánh các giải pháp hiện có liên quan đến vấn đề. | Giúp hệ thống hóa thông tin, nhận diện các hướng tiếp cận và rút ra những điểm có thể tham khảo cho giải pháp. | Thông tin có thể chưa đầy đủ hoặc chưa sát với bối cảnh Vinschool; việc liệt kê công cụ chưa đủ để chứng minh giải pháp phù hợp. | Tập trung vào chức năng thực sự liên quan đến bài toán, xem xét khả năng áp dụng trong bối cảnh nhà trường thay vì chỉ dựa vào mô tả của AI. |
+| CP5 Quy trình | Nhờ AI hỗ trợ rà soát Current-State Flow và Future-State Flow, kiểm tra các bước xử lý, điểm bottleneck, handoff và vị trí có thể ứng dụng AI. | Giúp phát hiện các bước còn thiếu, làm rõ sự khác biệt giữa quy trình hiện tại và quy trình đề xuất. | AI có xu hướng đề xuất tự động hóa nhiều bước mà chưa xét đến dữ liệu đầu vào, ngoại lệ và trách nhiệm của nhân viên. | Giữ lại các bước cần con người xác minh, bổ sung cơ chế chuyển tiếp cho trường hợp AI không đủ thông tin và không tự động hóa những bước chưa phù hợp. |
+| CP5–6 Problem Statement | Sử dụng AI để rà soát cách diễn đạt Problem Statement, kiểm tra sự liên kết giữa vấn đề, đối tượng bị ảnh hưởng, nguyên nhân và tác động. | Giúp câu mô tả vấn đề rõ ràng, tập trung hơn và tránh đưa giải pháp vào quá sớm khi chưa xác định đúng vấn đề. | AI đôi khi diễn đạt vấn đề quá rộng hoặc chuyển trọng tâm sang giải pháp AI thay vì nhu cầu thực tế của người dùng. | Chỉnh lại Problem Statement để tập trung vào khó khăn của phụ huynh và nhân viên nhà trường, không mặc định rằng chatbot là giải pháp duy nhất. |
+| CP6 Mức can thiệp / quyết định | Nhờ AI hỗ trợ phân tích mức độ phù hợp của AI trong từng bước và rà soát các rủi ro khi triển khai. | Giúp phân biệt những công việc có thể tự động hóa, những công việc AI chỉ nên hỗ trợ và những bước cần con người quyết định. | AI có thể đánh giá quá cao khả năng tự xử lý, chưa xem xét đầy đủ độ tin cậy của dữ liệu và hậu quả khi trả lời sai. | Lựa chọn hướng Workflow + RAG, giới hạn AI ở các câu hỏi có thông tin chính thức để truy xuất; các trường hợp thiếu dữ liệu, phức tạp hoặc cần xác minh được chuyển cho nhân viên nhà trường. |
 
 ---
 
-## 6. Reflection (CP7)
+## 6. Reflection
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+### 6.1. Mình học được gì từ các Problem Pitch của thành viên khác?
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Mình nhận ra không phải vấn đề nào tốn thời gian cũng cần AI giải quyết. Một số vấn đề có thể xử lý đơn giản bằng công cụ hoặc quy trình sẵn có. Vì vậy, cần xác định đúng nguyên nhân trước khi nghĩ đến giải pháp.
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+### 6.2. Nhóm có lúc nào đi từ giải pháp trước rồi mới tìm vấn đề không?
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Có. Khi trao đổi về bài toán rubric, nhóm mình ban đầu tập trung khá nhiều vào cách đọc và xử lý bài làm ở các định dạng khác nhau, cũng như việc tiếp cận rubric. Sau đó, Quang nhắc nhóm cần quay lại xác định liệu sinh viên có thực sự gặp khó khăn này hay không. Nhóm nhận ra mình đã quá tập trung vào cách triển khai mà chưa hiểu rõ người dùng và vấn đề của họ. Vì vậy, nhóm chuyển sang đặt giả định và phỏng vấn sinh viên để kiểm chứng trước khi tiếp tục xây dựng giải pháp.
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+### 6.3. Phản biện nào khiến mình thay đổi cách nhìn về Problem Card?
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Khi mình trình bày bài toán hỗ trợ phụ huynh Vinschool, Cương đặt câu hỏi: nếu trường đã có FAQ hoặc RAG thì tại sao cần xây dựng AI Agent? Điều này khiến mình nhận ra cần làm rõ hạn chế của giải pháp hiện tại trước khi đề xuất AI.
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+### 6.4. Kết quả kiểm chứng có khiến mình bất ngờ không?
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Có. Nhóm nhận thấy việc kiểm tra bài theo rubric mất khá nhiều thời gian, nhưng một số sinh viên vẫn thấy tự kiểm tra hoặc nhờ bạn bè là đủ. Điều đó cho thấy AI chưa chắc là lựa chọn tốt nhất cho tất cả trường hợp.
+
+### 6.5. Phần nào trong Problem Statement khiến mình khó khăn nhất?
+
+Với bài toán phụ huynh Vinschool, khó nhất là xác định vấn đề thực sự nằm ở đâu: phụ huynh khó tìm thông tin, thông tin chưa thống nhất hay cần nhân viên hỗ trợ trực tiếp. Mình cần phân biệt rõ vấn đề đã có bằng chứng và những giả định cần kiểm chứng.
+
+### 6.6. Sau buổi học, mình sẽ thay đổi cách tiếp cận như thế nào?
+
+Mình sẽ tập trung tìm hiểu quy trình và khó khăn của người dùng trước khi đề xuất giải pháp. Với bài toán phụ huynh, cần kiểm tra xem FAQ/RAG hiện tại còn thiếu sót gì; với bài toán nhóm, cần kiểm chứng độ chính xác của AI khi đối chiếu rubric.
+
+### 6.7. Tóm tắt toàn bộ quá trình làm việc của nhóm
+
+Nhóm chọn bài toán hỗ trợ sinh viên đối chiếu bài làm với rubric để tránh mất điểm do thiếu tiêu chí. Qua phân tích, nhóm xác định bước đối chiếu là bottleneck và đặt mục tiêu giảm thời gian kiểm tra từ 60 xuống 20 phút, với độ khớp đánh giá từ 90% trở lên. Nhóm đề xuất Workflow kết hợp Rule và HITL: AI hỗ trợ kiểm tra nhưng không tự sửa bài hay thay giảng viên chấm điểm. Quyết định cuối cùng là Not Yet, cần thử nghiệm giới hạn trước khi triển khai.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Các nguồn research đã liệt kê tại mục 3.3: FeedbackFruits — Self-Assessment, Turnitin Clarity — AI Tools, OpenAI — Assessment and Feedback, Gradescope.
