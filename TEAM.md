@@ -37,6 +37,35 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
+### NguyenTrieuDuong-2A202603524
+
+**Phần việc phụ trách:**
+
+- Chính: CP6 — so sánh mức can thiệp, AI Canvas, PAIR, Problem Statement v1, tiêu chí đánh giá, bốn rủi ro và đề xuất quyết định.
+- Hỗ trợ theo phân công nhóm: CP3, CP4 Research và CP5 — Problem Statement v0.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
+|---|---|---|
+| Pitch và phản biện | Pitch ba problem về API, Figma/token và setup unit test; hỏi Quang về phương án chốt lịch có sẵn, Giang về chi phí và Cương về NotebookLM. | Hai candidate API và unit test vào shortlist; đưa việc so sánh với phương án đơn giản và công cụ có sẵn vào thảo luận. |
+| Tiếp nhận phản biện | Rà lại nguyên nhân mất thời gian làm rõ API, vị trí nghẽn khi triển khai giao diện và phương án dùng template/helper cho test. | Bổ sung cách đo riêng thời gian chờ và trao đổi, làm rõ thời gian từng bước và phương án không dùng AI. |
+| Mức can thiệp AI | Phụ trách so sánh No AI/Rule/Workflow/Agent, AI Canvas và hai câu hỏi PAIR, có AI hỗ trợ bản nháp và rà soát. | Đề xuất Workflow cố định: Rule kiểm tra cấu trúc, AI đối chiếu ngữ nghĩa, sinh viên kiểm tra và quyết định; chưa cần Agent. |
+| Problem Statement v1 và eval | Hoàn thiện nội dung CP6 về intervention point, boundary, metric, người kiểm tra và năm tiêu chí đánh giá. | Tách mục tiêu khỏi kết quả đã đạt; bổ sung đối chứng checklist, độ khớp người chấm và yêu cầu minh chứng truy vết được. |
+| Rủi ro và quyết định | Phụ trách phân tích Value/Usability/Feasibility/Viability, đề xuất Not Yet và ngưỡng dừng; yêu cầu kiểm tra lại yêu cầu lab sau lượt dry run giới hạn. | Giữ kế hoạch kiểm chứng trước khi triển khai; không coi dry run thiếu nhãn độc lập và thời gian đối chứng là bằng chứng đủ để Go. |
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- [Báo cáo nhóm](report/team/group_report.md), mục 2.1 (#1–3 và câu hỏi phản biện), 2.4 (shortlist) và 6–8 (CP6).
+- [Báo cáo cá nhân](report/individual/2A202603524_NguyenTrieuDuong.md), mục 3–6: Problem Cards, nhật ký phản biện, đóng góp, sử dụng AI và reflection.
+
+**Điều mình học được từ phần nhóm:**
+
+- Khi nhóm dành khoảng 15 phút bàn cách lấy rubric và xử lý nhiều định dạng, câu hỏi của Quang giúp quay lại xác nhận sinh viên có thực sự gặp vấn đề. Cần kiểm chứng người dùng và pain trước khi bàn cách triển khai.
+- Phải phân biệt thời gian chờ với thời gian thao tác để chọn đúng phần có thể cải thiện; có số phút chưa đủ chứng minh nguyên nhân nghẽn.
+- Với CP6, Workflow chỉ đáng chọn khi tạo thêm giá trị so với checklist hoặc Rule; target về tốc độ phải đi cùng tiêu chí chất lượng và người kiểm tra.
+- Not Yet là kết luận có cơ sở khi vẫn còn thiếu bằng chứng về độ chính xác, hiệu quả và điều kiện dùng dữ liệu; cần ghi rõ phép thử tiếp theo và ngưỡng dừng.
+
 ### NguyenHoangCuong-2A202603568
 
 **Phần việc phụ trách:**
