@@ -8,7 +8,7 @@
 - Tên nhóm:
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu): Hỗ trợ sinh viên đối chiếu bài làm với rubric, phát hiện tiêu chí chưa đáp ứng và gợi ý cải thiện trước khi nộp
-- Quyết định cuối: Go / Not Yet / No-Go
+- Quyết định cuối: Not Yet
 
 ---
 
@@ -84,15 +84,14 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 | 3 | AI có thể đánh giá bài làm nhất quán với giáo viên khi sử dụng cùng một rubric. | Feasibility | 5 | 3 | — |
 | 4 | Bài làm và rubric có thể được tải lên để hệ thống xử lý tự động. | Feasibility | 4 | 3 | ✅ |
 | 5 | Nhà trường và giáo viên cho phép đưa dữ liệu bài làm vào công cụ AI | Viability | 4 | 1 | Hỏi sau lab |
-*Điền 4–6 giả định; xóa dòng thừa.*
 
-Giả định nhóm kiểm chứng trong buổi này:
+Giả định nhóm kiểm chứng trong buổi này: 1, 2, 4
 
 
 
 ### 3.2. Kiểm chứng
 
-**Cách đã dùng:** Phỏng vấn 1 sinh viên đại học (phỏng vấn giả định để xây dựng bản nháp).
+**Cách đã dùng:** Phỏng vấn 1 sinh viên đại học.
 
 #### Interview snapshot — Người thứ 1
 
@@ -115,7 +114,7 @@ Giả định nhóm kiểm chứng trong buổi này:
 | Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Trong lần làm tiểu luận gần nhất, sinh viên đã dùng ChatGPT để review bài. AI đưa ra một số gợi ý về cách diễn đạt nhưng không phát hiện bài còn thiếu phần liên hệ thực tế theo yêu cầu của giảng viên. |
 | Hiện đang xử lý bằng cách nào (workaround)? | Đọc lại đề bài, tự so sánh với nội dung đã viết và sử dụng ChatGPT để kiểm tra lỗi diễn đạt, chính tả hoặc xin góp ý chung. |
 | Mất bao lâu, bao lần? | Khoảng 20–30 phút cho mỗi lần kiểm tra, thường thực hiện 2 lần trước khi nộp. |
-| Insight / opportunity rút ra | Các công cụ AI phổ biến có thể hỗ trợ nhận xét bài viết nhưng phản hồi đôi khi còn chung chung, chưa đối chiếu đầy đủ với từng tiêu chí cụ thể trong rubric, đôi lúc còn nhầm lẫn và sai thông tin. |
+| Insight / opportunity rút ra | Các công cụ AI phổ biến có thể hỗ trợ nhận xét bài viết nhưng phản hồi đôi khi còn chung chung, chưa đối chiếu đầy đủ với từng tiêu chí cụ thể trong rubric, đôi lúc còn nhầm lẫn và sai thông tin dẫn đến mất điểm. |
 
 #### Tổng hợp
 
@@ -174,7 +173,7 @@ HIỆN TẠI — 5 bước, khoảng 55–60 phút, 5/5 bước thủ công
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | Sinh viên / Nhóm trưởng | File Rubric (PDF/Markdown) + Bản nháp bài làm (Word/PDF/Repo) | 2 cửa sổ làm việc song song | 5 phút / mỗi lần nộp bài | Thường diễn ra sát deadline (1–2 tiếng trước giờ đóng link nộp). |
+| 1 | Sinh viên / Nhóm trưởng | File Rubric (PDF/Markdown) + Bản nháp bài làm (Word/PDF/Repo/Markdown) | 2 cửa sổ làm việc song song | 5 phút / mỗi lần nộp bài | Thường diễn ra sát deadline (1–2 tiếng trước giờ đóng link nộp). |
 | 2 | Sinh viên | File Rubric môn học | Danh sách các tiêu chí và barem điểm cần đạt | 10 phút / lần | Rubric dài nhiều trang, cấu trúc phức tạp (tiêu chí nội dung, format, số lượng minh chứng). |
 | 3 | Sinh viên | Tiêu chí Rubric + Nội dung bài làm | Đánh giá chủ quan từng phần đã đạt hay chưa | 25 phút / lần (chiếm ~45% tổng thời gian) | **Bước nghẽn:** Phải cuộn và đọc song song giữa 2 văn bản; mỏi mắt, dễ sinh cảm giác chủ quan "nghĩ là mình đã viết đủ" nên bỏ sót. |
 | 4 | Sinh viên | Kết quả dò ở Bước 3 | Checklist các lỗi thiếu mục, sai format cần sửa | 10 phút / lần | Ghi chú vội vàng, thiếu liên kết trực tiếp tới vị trí cần bổ sung trong bài. |
@@ -188,7 +187,7 @@ Bước 3 (Dò tìm minh chứng và đối chiếu từng tiêu chí Rubric v�
 Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
 
 ```text
-TƯƠNG LAI — 5 bước, khoảng 18–20 phút, 2/5 bước thủ công
+TƯƠNG LAI — 5 bước, khoảng 18–20 phút, 3/5 bước thủ công
 
 [1. Upload bài làm + Rubric: 2']                       ← CON NGƯỜI
    → [2. Parse & kiểm tra cấu trúc cơ bản: 1']         ← RULE (Script kiểm tra định dạng file, word count, mục lục bắt buộc)
@@ -225,8 +224,8 @@ PHƯƠNG ÁN QUAY VỀ:
 | **Actor** | Sinh viên đại học (cá nhân hoặc nhóm trưởng) chuẩn bị nộp bài tập lớn/báo cáo kỹ thuật. |
 | **Quy trình** | Trước hạn nộp 1–2 giờ: mở Rubric và bài làm song song, đọc từng tiêu chí, tự dò tìm nội dung/minh chứng đối ứng, ghi checklist lỗi và sửa đổi trước khi nộp lên LMS/Canvas. |
 | **Bottleneck** | Bước dò tìm minh chứng và đối chiếu tiêu chí Rubric tốn 25–30 phút/lần nộp, dễ sinh cảm tính chủ quan hoặc mỏi mắt dẫn đến bỏ sót các tiêu chí phụ bắt buộc. |
-| **Impact** | Tốn 50–60 phút cho mỗi bài nộp; 2/3 sinh viên được phỏng vấn từng bị trừ 1–2 điểm do thiếu minh chứng hoặc lệch yêu cầu đề bài; gây căng thẳng tột độ sát giờ deadline. |
-| **Success Metric** (baseline → target, cách đo) | - **Thời gian rà soát:** Từ baseline 55–60' (đo thực tế) xuống target dưới 20' (đo bằng bấm giờ trong 3 lần nộp bài tiếp theo).<br>- **Tỉ lệ sót lỗi tiêu chí cứng:** Giảm từ ~30% sót lỗi format/mục bắt buộc xuống 0% trong các bài nộp thử nghiệm. |
+| **Impact** | Tốn 50–60 phút cho mỗi bài nộp; 2/2 sinh viên được phỏng vấn từng bị trừ điểm do thiếu minh chứng hoặc lệch yêu cầu đề bài; gây căng thẳng tột độ sát giờ deadline. |
+| **Success Metric** (baseline → target, cách đo) | - **Thời gian rà soát:** Từ baseline 50–60 phút (đo thực tế) xuống target dưới 20' (đo bằng bấm giờ trong 3 lần nộp bài tiếp theo).<br>- **Tỉ lệ sót lỗi tiêu chí cứng:** Giảm từ ~30% sót lỗi format/mục bắt buộc xuống 0% trong các bài nộp thử nghiệm. |
 | **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | - AI KHÔNG tự sửa file bài làm, KHÔNG tự nộp bài, KHÔNG đưa ra phán quyết điểm số chính thức thay giảng viên.<br>- BẮT BUỘC con người (sinh viên) phải thẩm định các khuyến nghị của AI trước khi quyết định chỉnh sửa bài nộp. |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
@@ -267,7 +266,7 @@ Vì sao: Rubric có tiêu chí định tính, một tiêu chí có thể có nhi
 | **Judgment** — con người cân nhắc, quyết định gì? | Sinh viên kiểm tra trích dẫn, đọc ngữ cảnh và quyết định sửa. Người chấm tham chiếu xử lý tiêu chí định tính hoặc bất đồng. |
 | **Action** — hành động cuối cùng là gì, ai làm? | Sinh viên tự chỉnh bài và tự nộp; Workflow chỉ xuất báo cáo đối chiếu, không ghi đè file hay thao tác LMS. |
 | **Outcome** — đo kết quả bằng gì? | Thời gian soát–sửa, mức khớp nhãn với người chấm, số lần báo đạt sai và số dẫn chứng không tồn tại. So sánh với checklist trên cùng bộ thử. |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | Một rubric rõ tiêu chí và một bài làm Markdown/PDF có lớp văn bản đọc được, được phép xử lý. Bộ 5 bài thử và nhãn tham chiếu chưa được cung cấp trong repo. Không đưa dữ liệu lên công cụ ngoài khi chưa có quyền sử dụng. |
+| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | Một rubric rõ tiêu chí và một bài làm Word/Repo/Markdown/PDF được phép xử lý. Bộ 5 bài thử và nhãn tham chiếu chưa được cung cấp trong repo. Không đưa dữ liệu lên công cụ ngoài khi chưa có quyền sử dụng. |
 | **Feedback** — lấy phản hồi ở đâu để cải thiện? | Lưu tiêu chí, nhãn AI, minh chứng, nhãn người chấm và lý do sửa; dùng để cải thiện prompt/rule. Không tự huấn luyện bằng bài làm hoặc thông tin cá nhân. |
 
 ### 6.4. Hai câu hỏi của Google PAIR
@@ -284,7 +283,7 @@ Vì sao: Rubric có tiêu chí định tính, một tiêu chí có thể có nhi
 | **Actor** | Sinh viên đại học hoặc nhóm trưởng tự rà soát bài báo cáo dạng văn bản trước khi nộp. |
 | **Quy trình** | Chuẩn bị rubric và bản nháp → kiểm tra cấu trúc bằng Rule → AI tìm minh chứng theo từng tiêu chí → sinh viên đối chiếu báo cáo với bản gốc → tự sửa và nộp. |
 | **Bottleneck** | Dò tìm minh chứng và đối chiếu rubric: khoảng 25–30 phút theo CP3–CP5. |
-| **Impact** | Hai phỏng vấn và poll 6 người trong CP4 ghi nhận khó khăn khi tự rà soát; 4/6 người trong poll gặp khó khăn, 2/6 thấy cách thủ công đủ dùng. Quy trình CP5 cộng thành 60 phút/lần; đây là baseline mô tả quy trình, chưa có log bấm giờ trong repo. Không suy rộng các mẫu nhỏ thành toàn bộ sinh viên. |
+| **Impact** | Hai phỏng vấn và poll 6 người trong CP4 ghi nhận khó khăn khi tự rà soát; 4/6 người trong poll gặp khó khăn, 2/6 thấy cách thủ công đủ dùng. Quy trình CP5 cộng thành 50-60 phút/lần. Không suy rộng các mẫu nhỏ thành toàn bộ sinh viên. |
 | **Success Metric** (baseline → target, cách đo) | Trên bộ thử 5 bài: thời gian trung bình toàn luồng soát–sửa ≤20 phút/bài và thấp hơn checklist ít nhất 20%; nhãn khớp người chấm ≥90%; không bịa minh chứng và không báo đạt cho tiêu chí bắt buộc đã được người chấm xác định thiếu. Baseline 60 phút của CP5 là tham chiếu lập kế hoạch; đo lại đối chứng checklist trước khi kết luận hiệu quả. |
 | **Boundary** | Chỉ xử lý văn bản đọc được và rubric rõ, có quyền sử dụng; không chấm điểm chính thức, không đánh giá độ sáng tạo/sâu sắc thay giảng viên, không tự sửa/nộp bài. Trích đoạn phải tồn tại trong bản gốc. Tiêu chí mơ hồ hoặc trích xuất lỗi được chuyển người kiểm tra. |
 | **AI intervention point** | Bước 3 của quy trình CP5: đối chiếu ngữ nghĩa từng tiêu chí với nội dung, xuất nhãn đề xuất và minh chứng; Rule xử lý kiểm tra cấu trúc, người dùng giữ quyết định cuối. |
@@ -295,8 +294,8 @@ Vì sao: Rubric có tiêu chí định tính, một tiêu chí có thể có nhi
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| Impact | Ghi 50–60 phút và 2/3 sinh viên bị trừ 1–2 điểm. | Dùng hai snapshot và poll 6 người trong CP4; phân biệt tổng bước mô tả 60 phút với thời gian đo thực tế. | Số mẫu và mức mất điểm trong v0 chưa khớp dữ liệu được trình bày; không dùng claim đó làm kết quả kiểm chứng trong v1. |
-| Success Metric | Baseline 55–60 phút gọi là đo thực tế; tỷ lệ sót lỗi khoảng 30% → 0%. | Tổng bước 60 phút là tham chiếu; bổ sung đối chứng checklist, nhãn khớp người chấm ≥90%, không bịa minh chứng và cách đo trên 5 bài. | Chưa có log trong báo cáo để xác lập tỷ lệ sót lỗi 30%; cần đo chất lượng đối chiếu ngữ nghĩa và lợi ích so với phương án đơn giản hơn. |
+| Impact | Ghi 50–60 phút và 2/2 sinh viên bị trừ điểm. | Dùng hai snapshot và poll 6 người trong CP4; phân biệt tổng bước mô tả 50-60 phút với thời gian đo thực tế. | Số mẫu và mức mất điểm trong v0 chưa khớp dữ liệu được trình bày; không dùng claim đó làm kết quả kiểm chứng trong v1. |
+| Success Metric | Baseline 50–60 phút gọi là đo thực tế; tỷ lệ sót lỗi khoảng 30% → 0%. | Tổng bước 60 phút là tham chiếu; bổ sung đối chứng checklist, nhãn khớp người chấm ≥90%, không bịa minh chứng và cách đo trên 5 bài. | Chưa có log trong báo cáo để xác lập tỷ lệ sót lỗi 30%; cần đo chất lượng đối chiếu ngữ nghĩa và lợi ích so với phương án đơn giản hơn. |
 | Boundary | Không sửa/nộp hoặc chấm điểm thay người dùng. | Thêm giới hạn đầu vào, quyền sử dụng, xử lý tiêu chí mơ hồ và trách nhiệm kiểm tra minh chứng. | Giảm rủi ro báo đạt sai và sử dụng dữ liệu không được phép. |
 | Mức can thiệp | Luồng tương lai chưa chốt loại can thiệp. | Đề xuất Workflow cố định; không dùng Agent. | Chỉ có hai đầu vào và trình tự xác định trước. |
 
@@ -347,9 +346,9 @@ Vì sao: Rubric có tiêu chí định tính, một tiêu chí có thể có nhi
 ---
 ## 9. Hạn chế và hướng tiếp theo
 
-- Mẫu kiểm chứng nhỏ: hai interview snapshot và poll 6 người, chưa đại diện cho mọi sinh viên hoặc loại bài. Học viên xác nhận hai phỏng vấn và poll là thật.
+- Mẫu kiểm chứng nhỏ: hai interview snapshot và poll 6 người, chưa đại diện cho mọi sinh viên hoặc loại bài.
 - Chưa có kết quả thử Workflow so với checklist hoặc nhãn tham chiếu của người chấm. Các ngưỡng ≤20 phút, khớp ≥90% và giảm thời gian ít nhất 20% là mục tiêu kiểm chứng, không phải hiệu quả đã đạt.
-- - Phạm vi thử chỉ gồm bài văn bản đọc được và rubric rõ; chưa kiểm tra code, hình ảnh, PDF scan hoặc tiêu chí sáng tạo/sâu sắc. Chưa xác nhận quyền xử lý dữ liệu, chi phí và người vận hành.
+- Phạm vi thử chỉ gồm bài văn bản đọc được và rubric rõ; chưa kiểm tra code, hình ảnh, PDF scan hoặc tiêu chí sáng tạo/sâu sắc. Chưa xác nhận quyền xử lý dữ liệu, chi phí và người vận hành.
 - Hướng tiếp theo: nhóm phân công người phụ trách, bổ sung hồ sơ phỏng vấn/poll, chuẩn bị 5 bài được phép sử dụng và nhãn tham chiếu; chạy đối chứng trong một tuần theo mục 8.2 rồi xem lại quyết định Not Yet.
 
 ## 10. Tài liệu tham khảo
