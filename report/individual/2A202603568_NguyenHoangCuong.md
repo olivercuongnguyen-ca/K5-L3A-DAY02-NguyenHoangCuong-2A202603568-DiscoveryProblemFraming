@@ -139,16 +139,16 @@ HIỆN TẠI — ~30 phút/buổi
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | Pitch các statement của mình và tham gia phản biện | Đóng góp ý tưởng để mọi người sửa statement của mình |
+| Pitch Problem Card | Pitch #10, #11, #12 | Xếp vào cluster C (#10), A (#11), B (#12); không vào shortlist |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | Chạy và sửa lỗi setup 10 phút/component, setup tổng 25 phút | Dùng template và helper chung có đủ giảm lỗi mà không cần AI không?, Nếu rubric chứa các tiêu chí định tính, không rõ ràng (như 'phân tích sâu sắc', 'ý tưởng sáng tạo') hoặc bài nộp là code/ảnh chứ không chỉ văn bản, làm sao đảm bảo AI không báo sai hoặc ảo giác?, Nếu nhà trường đã có FAQ hoặc chatbot RAG để tra cứu thông tin, tại sao cần xây dựng AI Agent? |
 | Nhận phản biện | Câu hỏi tôi nhận được: Tại sao không dùng ChatGPT mà lại cần xây dựng sản phẩm mới?, Tại sao không dùng các công cụ có sẵn như NotebookLM? Làm sao để chứng minh sản phẩm có độ chính xác cao hơn?, Vấn đề hệ thống cập nhật chậm có thể do việc code, làm sao để chứng minh hiệu quả của việc sử dụng AI tổng hợp dữ liệu? | Tôi đã sửa gì: Sửa metric để so sánh, đánh giá lại bottleneck |
-| Gom cluster / cây OST | Thảo luận với nhóm | Giúp nhóm tổng hợp pattern chung |
-| Chọn candidate problem | Chia sẻ góc nhìn cá nhân | Củng cố lại lựa chọn vấn đề #4 của nhóm |
+| Gom cluster / cây OST | Thảo luận với nhóm | Cluster A/B/C, OST 1 outcome 3 opportunity |
+| Chọn candidate problem | Cùng nhóm chấm điểm; không bất đồng | Củng cố lại lựa chọn vấn đề #4 của nhóm |
 | Kiểm chứng / research | Hỗ trợ thiết kế câu hỏi interview | Giúp nhóm interview theo The Mom Test |
 | Quy trình nhóm | | |
 | Problem Statement | | |
 | Mức can thiệp AI | | |
-| Quyết định | | |
+| Quyết định | Đưa thêm góc nhìn về metric | Củng cố kết luận Not Yet |
 
 ---
 
