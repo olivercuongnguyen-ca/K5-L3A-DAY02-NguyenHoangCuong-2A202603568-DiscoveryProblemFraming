@@ -56,10 +56,9 @@ Chính: CP3, tổng hợp thông tin - Phụ: CP4, CP6
 -
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-
-group_report.md: 2. Hội tụ nhóm (CP3)
-report/assets/: cp2-workflow-card-1.png
-Commit: 634b835, dc6a69f, 61b56b9, 99963af, 6efcbca, 340171c
+- group_report.md: 2. Hội tụ nhóm (CP3)
+- report/assets/: cp2-workflow-card-1.png
+- Commit: 634b835, dc6a69f, 61b56b9, 99963af, 6efcbca, 340171c
 -
 
 **Điều mình học được từ phần nhóm:**
