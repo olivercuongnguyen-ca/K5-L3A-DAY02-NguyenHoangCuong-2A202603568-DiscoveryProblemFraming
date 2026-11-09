@@ -110,11 +110,15 @@ Chính: CP4
 
 - `group_report`: Mục 2.1 – Nội dung Pitch Problem Card #7, #8 và #9, checkpoint 4
 - File báo cáo cá nhân: Mục 3 – Ba Problem Card đã xây dựng, trong đó Card #1 được lựa chọn làm hướng trình bày ưu tiên.
-- File assets: cp4–interview–snapshot–1.md, cp4–survey–result.png 
+- Thư `mục assets`: cp4–interview–snapshot–1.md, cp4–survey–result.png 
 
 **Điều mình học được từ phần nhóm:**
 – Cần phân biệt giữa một vấn đề gây bất tiện và một vấn đề đủ nghiêm trọng để cần giải pháp mới.
+
 – Việc phân tích quy trình hiện tại giúp mình hiểu rõ công đoạn nào thực sự tốn thời gian, thay vì chỉ nhìn vào kết quả cuối cùng.
+
 – AI không nhất thiết phải xử lý toàn bộ công việc. Những bước có quy tắc rõ ràng nên ưu tiên Rule, còn các quyết định cần đánh giá ngữ cảnh vẫn cần con người tham gia.
+
 – Một giải pháp có vẻ khả thi về mặt kỹ thuật chưa chắc đã phù hợp để triển khai thực tế nếu chưa có dữ liệu đánh giá và chưa xác định được rủi ro.
+
 – Mình học được rằng quyết định chưa triển khai cũng là một kết quả hợp lý nếu bằng chứng hiện tại chưa đủ thuyết phục.
